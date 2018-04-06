@@ -1,7 +1,7 @@
 # C++ code snippet template 
 
 * Designed to be used with VS Code under Windows
-* The C++ code is compiled with cl (see the content of tasks.json)
+* The C++ code is compiled with cl (see the content of tasks.json file in the .vscode directory)
 
 * **HOW TO** : 
   * Open a Microsoft Developper Console
