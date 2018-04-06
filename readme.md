@@ -10,12 +10,13 @@
   * cd MyApplication
   * Remove the hidden .git subdirectory : rmdir /S .git
   * From the MyApplication directory, launch VS Code with : code .
+  * Start by editing the readme.md file for example
 
 * **HOW TO PUSH TO A NEW GIT REPOSITORY** :
-  * I suppose you made some changes in the source code and that you had local commits on your hard disk
-  * Go to Github and create a new repository (let's say MyCode)
+  * I suppose you made some changes in the source code and that you already had some local commits on your hard disk. Now you want to push your changes on GitHub.
+  * Go to GitHub and create a new repository (let's say MyCode)
   * Open a console in VSCode and type : git remote add origin https://github.com/40tude/MyCode.git
-  * Push your changes
+  * Push your changes to the remote directory.
   
 * You can read this page if needed : https://www.40tude.fr/blog/how-to-compile-cpp-code-with-vscode-cl/ 
 
