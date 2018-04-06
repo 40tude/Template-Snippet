@@ -5,9 +5,10 @@
 
 * **HOW TO** : 
   * Open a Microsoft Developper Console
-  * Reach the directory where you want to clone this template project 
+  * Change to the directory where you want to clone this template project : cd %userprofile%/temp
   * Type : git clone https://github.com/40tude/Template-Snippet.git MyApplication
   * cd MyApplication
+  * Remove the hidden .git subdirectory : rmdir /S .git
   * From the MyApplication directory, launch VS Code with : code .
 
 * You can read this page if needed : https://www.40tude.fr/blog/how-to-compile-cpp-code-with-vscode-cl/ 
