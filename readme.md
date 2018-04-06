@@ -11,7 +11,7 @@
   * Remove the hidden .git subdirectory : rmdir /S .git
   * From the MyApplication directory, launch VS Code with : code .
 
-* **HOW TO PUSH TO A NEW GIT REPOSITORY ** :
+* **HOW TO PUSH TO A NEW GIT REPOSITORY** :
   * I suppose you already had local commit on your hard disk
   * Go to Github and create a new repository (let's say MyCode)
   * Open a console in VSCode and type : git remote add origin https://github.com/40tude/MyCode.git
