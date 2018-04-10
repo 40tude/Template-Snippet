@@ -2,14 +2,20 @@
     "version": "2.0.0",
     "tasks": [
         {
-            "label": "Build Debug",
+            "label": "Build Test",
             "type": "shell",
             "command": "cl",
+            "command": "cl",
             "args": [
-                "/MDd /W4 /EHsc /ZI /std:c++17 /Od",
-                "/Fe: '${workspaceFolder}/Debug/test.exe'",
-                "/Fd: '${workspaceFolder}/Debug/'", 
-                "/Fo: '${workspaceFolder}/Debug/'",
+                "/MDd",
+                "/W4", 
+                "/EHsc",
+                "/ZI",
+                "/std:c++17",
+                "/Od",
+                "/Fe:${workspaceFolder}/Debug/test.exe",
+                "/Fd:${workspaceFolder}/Debug/",
+                "/Fo:${workspaceFolder}/Debug/",
                 "main.cpp"
             ],
             "group": {
@@ -22,10 +28,14 @@
             "type": "shell",
             "command": "cl",
             "args": [
-                "/MD /W4 /EHsc /std:c++17 /O2",
-                "/Fe: '${workspaceFolder}/Release/test.exe'",
-                "/Fd: '${workspaceFolder}/Release/'", 
-                "/Fo: '${workspaceFolder}/Release/'",
+                "/MD",
+                "/W4",
+                "/EHsc",
+                "/std:c++17",
+                "/O2",
+                "/Fe:${workspaceFolder}/Release/test.exe",
+                "/Fd:${workspaceFolder}/Release/", 
+                "/Fo:${workspaceFolder}/Release/",
                 "main.cpp"
             ]
         }
