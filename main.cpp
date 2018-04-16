@@ -5,5 +5,5 @@
 int main() {
   std::cout << "Grettings Pr Falken.\n";  
   getchar();
-  return 0;
+  return EXIT_SUCCESS;
 }
